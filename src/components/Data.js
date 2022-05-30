@@ -1,0 +1,198 @@
+const Data ={
+   products : [
+       {
+    id :'1' ,
+    name : 'Pensive woman',
+    price : '₹ 23,266',
+    discount:'₹25000',
+    countInStock:'10',
+    category : 'Saree',
+    description:"Pink Color Kanchipuram Sliks",
+    image : 'images/image1.png',
+     color:"pink",
+     percentage:'18% OFF'
+       },
+    {
+        id :'2' ,
+        name : 'Pensive woman',
+        price : '₹ 10,326',
+        discount:'₹13000',
+        countInStock:'10',
+        category : 'Saree',
+        description:"Kanchipuram Silk Sarees ",
+        image : 'images/img7.png',
+         color:"pink",
+         percentage:'18% OFF'
+    },
+    {
+        id :'3' ,
+        name : 'Pensive woman',
+        price : '₹ 12,999',
+        discount:'₹15000',
+        countInStock:'30',
+        category : 'Saree',
+        description:"Pink Color Kanchipuram Sliks",
+        image : 'images/img5.png',
+         color:"pink",
+         percentage:'18% OFF'
+    },
+    {
+    id :'4' ,
+        name : 'Pensive woman',
+        price : '₹ 17,999',
+        discount:'₹20000',
+        countInStock:'30',
+        category : 'Saree',
+        description:"Pink Color Kanchipuram Sliks",
+        image : 'images/image2.jpg',
+         color:"pink",
+         percentage:'18% OFF'
+    },
+    {
+        id :'5' ,
+            name : 'Pensive woman',
+            price : '₹ 15,455',
+            discount:'₹17000',
+            countInStock:'30',
+            category : 'Saree',
+            description:"Pink Color Kanchipuram Sliks",
+            image : 'images/image3.jpg',
+             color:"pink",
+             percentage:'18% OFF'
+        },
+        {
+            id :'6' ,
+                name : 'Pensive woman',
+                price : '₹ 5,999',
+                discount:'₹7000',
+                countInStock:'30',
+                category : 'Saree',
+                description:"Pink color Kanchipuram Sliks",
+                image : 'images/img8.png',
+                 color:"pink",
+                 percentage:'18% OFF'
+            },
+            {
+                id :'7' ,
+                    name : 'Pensive woman',
+                    price : '₹ 12,999',
+                    discount:'₹15000',
+                    countInStock:'30',
+                    category : 'Saree',
+                    description:"Pink Color Kanchipuram Sliks",
+                    image :'images/image5.png',
+                     color:"pink",
+                     percentage:'18% OFF'
+                },
+                {
+                    id :'8' ,
+                        name : 'Pensive woman',
+                        price : '₹ 8,346',
+                        discount:'₹10000',
+                        countInStock:'30',
+                        category : 'Saree',
+                        description:"Pink Color Kanchipuram Sliks",
+                        image :  'images/image6.png',
+                         color:"pink",
+                         percentage:'18% OFF'
+                    },
+                    {
+                        id :'9' ,
+                        name : 'Pensive woman',
+                        price : '₹ 22,734',
+                        discount:'₹25000',
+                        countInStock:'10',
+                        category : 'Saree',
+                        description:"Pink Color Kanchipuram Sliks",
+                        image : 'images/img9.png',
+                         color:"pink",
+                         percentage:'18% OFF'
+                           },
+                        {
+                            id :'10' ,
+                            name : 'Pensive woman',
+                            price : '₹ 10,677',
+                            discount:'₹12000',
+                            countInStock:'10',
+                            category : 'Saree',
+                            description:"Bridal Fancy Saree",
+                            image : 'images/img10.png',
+                             color:"pink",
+                             percentage:'18% OFF'
+                        },
+                        {
+                            id :'11' ,
+                            name : 'Pensive woman',
+                            price : '₹ 11,999',
+                            discount:'₹13000',
+                            countInStock:'30',
+                            category : 'Saree',
+                            description:"Pink Color Kanchipuram Sliks",
+                            image : 'images/img11.png',
+                             color:"pink",
+                             percentage:'18% OFF'
+                        },
+                        {
+                        id :'12' ,
+                            name : 'Pensive woman',
+                            price : '₹ 16,999',
+                            discount:'₹20000',
+                            countInStock:'30',
+                            category : 'Saree',
+                            description:"Blue Color Kanchipuram Sliks",
+                            image : 'images/img12.png',
+                             color:"pink",
+                             percentage:'18% OFF'
+                        },
+                        {
+                            id :'13' ,
+                                name : 'Pensive woman',
+                                price : '₹ 15,199',
+                                discount:'₹20000',
+                                countInStock:'30',
+                                category : 'Saree',
+                                description:"Cobalt Blue Banarasi Saree",
+                                image : 'images/img13.png',
+                                 color:"pink",
+                                 percentage:'18% OFF'
+                            },
+                            {
+                                id :'14' ,
+                                    name : 'Pensive woman',
+                                    price : '₹ 5,999',
+                                    discount:'₹8000',
+                                    countInStock:'30',
+                                    category : 'Saree',
+                                    description:"Epitome Of Silk Sarees",
+                                    image : 'images/img14.png',
+                                     color:"pink",
+                                     percentage:'18% OFF'
+                                },
+                                {
+                                    id :'15' ,
+                                        name : 'Pensive woman',
+                                        price : '₹ 12,999',
+                                        discount:'₹15000',
+                                        countInStock:'30',
+                                        category : 'Saree',
+                                        description:"Kanjeepuram Silk Saree Teal Green",
+                                        image :'images/img15.png',
+                                         color:"pink",
+                                         percentage:'18% OFF'
+                                    },
+                                    {
+                                        id :'16' ,
+                                            name : 'Pensive woman',
+                                            price : '₹ 8,999',
+                                            discount:'₹10000',
+                                            countInStock:'30',
+                                            category : 'Saree',
+                                            description:"Peacock Blue Crepe Designer Saree",
+                                            image :  'images/img16.png',
+                                             color:"pink",
+                                             percentage:'18% OFF'
+                                        },
+                    
+   ]
+}
+export default Data;

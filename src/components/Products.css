@@ -1,0 +1,91 @@
+.filter{
+    margin-top: 10px;
+    /* border: outset; */
+    width: 300px;
+    
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+    background-size:    100% 3px,
+                        3px 100%,
+                        100% 3px,
+                        3px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+filter:hover {
+    animation-play-state: running;
+}
+   
+
+.head{
+   font-weight: bold;
+   margin-bottom: 40px;
+}
+.category{
+    margin-bottom: 20px;
+}
+.foo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+ }
+ .blue {
+    background: #13b4ff;
+ }
+ .purple {
+    background: #ab3fdd;
+ }
+ .wine {
+    background: #ae163e;
+ }
+ .yellow{
+     background-color: yellow;
+ }
+ .red{
+     background-color: red;
+ }
+ .white{
+    background-color:white;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.colors{
+    margin-top: 35px;
+}
+.size{
+    margin-top: 64px;
+}
+.fabric{
+    margin-top: 28px;
+}
+.pattern{
+    margin-top: 25px;
+}
+.price{
+    margin-top: -15px;
+    
+}
+@media screen and (max-width: 960px) {
+    .filter{
+   display: none;
+    }
+}
+@media screen and (min-width: 960px) {
+    .menu-icon{
+   display: none;
+    }
+}
