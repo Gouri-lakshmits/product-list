@@ -5,7 +5,7 @@ import "./Category.css";
 import Products from "./Products";
 function Category() {
  
-  return (
+  return ( 
     <>
       <div className="product">
         <Products />
@@ -44,6 +44,7 @@ function Category() {
             </Col>
           ))}
         </Row>
+
       </div>
     </>
   );

@@ -7,9 +7,13 @@
      width: 100%;
      height: 250px;
  }
- .cards{
-     width: 995px;
- }
+ .cards {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    scroll-behavior: smooth;
+}
  .top{
      margin-top: -688px;
      margin-left: 317px;
@@ -28,18 +32,7 @@
  .styl__image:hover {
     transform: scale(1.1);
 }
-@media screen and (max-width: 960px) {
-    .cards{
-        width: 150px;
-        height: 50px;
-        
-    }
-    .styl{
-        width: 150px;
-        margin-right: 200px;
-       
-    }
-}
+
 .styl{
     position: relative;
 }
@@ -108,3 +101,45 @@ color: black;
 .fa-heart:hover{
  color:white;
 }
+@media  (max-width: 960px) {
+   
+    .cards{
+        width: 100%;
+        height: 100%;
+        min-width: 100px;
+        min-height: 250px;
+        font-size: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 15px #00000030;
+    }
+    .styl{
+        width: 150px;
+        margin-right: 200px;
+       
+    }
+}
+@media  (max-width: 500px){
+    .cards{
+        width: 100%;
+        height: 100%;
+        min-width: 200px;
+        min-height: 300px;
+        font-size: 12px;
+        border-radius: 4%;
+        overflow: hidden;
+        border: 1px solid #fff;
+        box-shadow: 0px 0px 15px #00000030;
+        
+    }
+}
+@media  (max-width: 800px){
+    .cards{
+        -webkit-transform: translate(10px, 10px);
+        -moz-transform: translate(10px, 10px);
+        -ms-transform: translate(10px, 10px);
+        transform: translate(10px, 10px);
+        border-radius: 0.5rem;
+        overflow: visible;
+    }
+        
+    }

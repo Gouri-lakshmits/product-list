@@ -80,9 +80,9 @@ filter:hover {
     
 }
 @media screen and (max-width: 960px) {
-    .filter{
+    /* .filter{
    display: none;
-    }
+    } */
 }
 @media screen and (min-width: 960px) {
     .menu-icon{
